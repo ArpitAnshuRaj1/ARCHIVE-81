@@ -1,0 +1,58 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  /* background-color: white; */
+  background-color: black;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  padding-top: 35px;
+}
+
+.sidebar-link:hover,
+.sidebar-link:active {
+  /* background-color: rgb(235, 235, 235); */
+  background-color: darkgray;
+}
+
+.sidebar-link img {
+  height: 34px;
+  margin-bottom: 4px;
+  filter: invert(100%);
+}
+.sidebar-link .channelimg, .libraryimg{
+  position: relative;
+  transform: translateX(10px);
+}
+.sidebar-link .libraryimg{
+  position: relative;
+  transform: translateX(5px);
+}
+
+.sidebar-link div {
+  font-size: 13px;
+}
+
+.sidebar-link a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* MEADIA QUERY */
+@media (min-width: 1000px) {
+}
+@media (max-width: 750px){
+}
+@media (min-width: 751px) and (max-width: 999px){
+}
